@@ -1,0 +1,33 @@
+body{
+  background: #838689;
+} 
+section {
+  width:32%;
+  margin:0 auto;
+  margin-top:80px;
+}
+
+h1 {
+  font-family:sans-serif;
+  color:#A8CABA;
+  text-align:center;
+  margin-top:100px;
+}
+
+h2 {
+  color: #EBE3AA; 
+  font-family:sans-serif;
+  font-weight:lighter;
+  font-size: 2em;
+  white-space: nowrap;/*Evitar saltos de línea*/
+  overflow: hidden;
+  width: 30em;
+  animation: keyframes 5s steps(500) infinite; 
+}
+
+@keyframes keyframes{ 
+  
+  from{ width: 0px;} 
+  
+} 
+
